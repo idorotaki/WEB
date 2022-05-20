@@ -1,0 +1,221 @@
+body { /* Dito ko ineedit ang font at background color ng page */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .box h1{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: -15px;
+    margin-left: 20px;
+    font-size: 45px;
+  }
+
+  .box{
+      width: 800px;
+      height: 520px;
+      padding: 40px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #2f2c2d;
+      text-align: center;
+      border-radius: 10px;
+  }
+
+  .box .close {
+    position: absolute;
+    margin-left: 90%;
+    margin-top: -25px;
+  }
+
+  .box .close a{
+    color: whitesmoke;
+    font-size: 30;
+  }
+
+  .box .close a:hover{
+    color: salmon;
+    transition: 0.3s;
+  }
+
+  form .firstname{
+    border: 0;
+    background-color: white;
+    display: block;
+    margin-left: 30px;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    padding: 14px 10px;
+    width: 320px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    cursor: auto;
+  }
+
+  form .lastname{
+    border: 0;
+    background-color: white;
+    display: block;
+    margin-left: 55%;
+    margin-top: -49px;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    padding: 14px 10px;
+    width: 320px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    cursor: auto;
+  }
+
+  form .address{
+    border: 0;
+    background-color: white;
+    display: block;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    padding: 14px 10px;
+    width: 730px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    cursor: auto;
+  }
+
+  form .contact{
+    border: 0;
+    background-color: white;
+    display: block;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    padding: 14px 10px;
+    width: 320px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    cursor: auto;
+  }
+
+  form .email{
+    border: 0;
+    background-color: white;
+    display: block;
+    margin-left: 55%;
+    margin-top: -49px;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    padding: 14px 10px;
+    width: 320px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    cursor: auto;
+  }
+
+  form .username{
+    border: 0;
+    background-color: white;
+    display: block;
+    margin-left: 18%;
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    padding: 14px 10px;
+    width: 500px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    cursor: auto;
+  }
+
+  form .password{
+    border: 0;
+    background-color: white;
+    display: block;
+    margin-left: 18%;
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    padding: 14px 10px;
+    width: 500px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    cursor: auto;
+  }
+
+  form .confirm{
+    border: 0;
+    background-color: white;
+    display: block;
+    margin-left: 18%;
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    padding: 14px 10px;
+    width: 500px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    cursor: auto;
+  }
+
+  button {
+    text-decoration: none;
+    font-size: 16px;
+    background-color: whitesmoke;
+    display: block;
+    margin: 20px;
+    margin-top: 30px;
+    margin-left: 10%;
+    text-align: center;
+    border: none;
+    padding: 14px 40px;
+    outline: none;
+    color: #1a0000;
+    border-radius: 24px;
+    width: 340px;
+    cursor: pointer;
+  }
+
+  .box button:hover{
+    background-color: goldenrod;
+  }
+  .box a {
+      text-decoration: none;
+  }
+
+  .box input[type= "submit"]{
+    font-size: 16px;
+    background-color: whitesmoke;
+    display: block;
+    margin: 20px;
+    margin-left: 35%;
+    text-align: center;
+    border: none;
+    padding: 14px 100px;
+    outline: none;
+    color: #1a0000;
+    border-radius: 24px;
+    cursor: pointer;
+  }
+
+  .box input[type= "submit"]:hover{
+      background-color: skyblue;
+  }
+
+  .gotologin{
+    position: absolute;
+    color: whitesmoke;
+    left: 42.5%;
+    top: 88%;
+  }
